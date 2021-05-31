@@ -1,0 +1,140 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/scientistbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: white; /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 10px outset magenta;
+}
+
+   
+#logo {
+    margin-bottom: 36px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+    margin: 0px auto 10px auto;
+    color: #003A7B;
+}
+
+h2 {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: 'Fira Sans', sans-serif;	;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #003A7B;
+}
+nav{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.2em;
+	width: 600px;
+	height: max-content;
+	margin: 0 auto;
+	background-color: #003A7B;;
+	border: solid #003A7B;
+	border-width: 18px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	display: inline;
+	padding: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+	background: #44B6E5;
+}
+    
+    
+
